@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Picker</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        .color-wheel {
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            background: conic-gradient(
-                red, yellow, lime, cyan, blue, magenta, red
-            );
-            cursor: pointer;
-        }
-    </style>
+   <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: transparent; /* Transparenter Hintergrund */
+    }
+    .color-wheel {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: conic-gradient(
+            red, yellow, lime, cyan, blue, magenta, red
+        );
+        cursor: pointer;
+    }
+</style>
 </head>
 <body>
     <div class="color-wheel" id="colorWheel"></div>
